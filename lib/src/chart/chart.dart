@@ -3,7 +3,7 @@ import 'dart:ui';
 
 import 'package:flutter/gestures.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter/widgets.dart';
+import 'package:flutter/widgets.dart' hide View;
 import 'package:graphic/src/chart/size.dart';
 import 'package:graphic/src/coord/coord.dart';
 import 'package:graphic/src/coord/polar.dart';
